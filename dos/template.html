@@ -14,14 +14,14 @@
       padding: 0;
     }
   </style>
-  <script src="js-dos/js-dos.js"></script>
-  <link href="js-dos/js-dos.css" rel="stylesheet">
+  <script src="/js-dos.js"></script>
+  <link href="/js-dos.css" rel="stylesheet">
 </head>
 
 <body>
   <div id="jsdos" />
   <script>
-    emulators.pathPrefix = "js-dos/";
+    emulators.pathPrefix = "dosfiles/";
     Dos(document.getElementById("jsdos"), {
 /* using js-dos services, readmore: https://js-dos.com/v7/build/docs/jsdos-services#saveload-on-backend
       clientId: (userGesture) => {
